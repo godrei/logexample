@@ -30,6 +30,16 @@ func Info(s string) {
 	}
 }
 
+// Debug ...
+func Debug(s string) {
+	if _, err := write(s, map[string]string{
+		"type": "deb",
+		"time": fmt.Sprintf("%s", time.Now().Format("2006:01:02-15:04:05")),
+	}); err != nil {
+		panic(err)
+	}
+}
+
 func write(str string, tags map[string]string) (int, error) {
 	l := map[string]string{}
 	for k, v := range tags {
