@@ -1,12 +1,17 @@
-Running step #1
-{"@time":"2020:02:24-22:24:16","@type":"inf","msg":"Building Xcode project"}
-{"@time":"2020:02:24-22:24:17","@type":"cmd","msg":"xcode build --project ./tmp.xcodeproj"}
-{"@time":"2020:02:24-22:24:19","@type":"inf","msg":"Building Xcode project"}
-{"@time":"2020:02:24-22:24:20","@type":"cmd","msg":"xcode build --project ./tmp.xcodeproj"}
+{"@time":"","@src":"system","@type":"deb","msg":"version: 1.0"}
 
-Running step #2
-{"@time":"2020:02:24-22:24:20","@type":"inf","msg":"Building Xcode project"}
-{"@time":"2020:02:24-22:24:21","@type":"cmd","msg":"xcode build --project ./tmp.xcworkspace"}
-{"@time":"2020:02:24-22:24:23","@type":"inf","msg":"Building Xcode project"}
-{"@time":"2020:02:24-22:24:24","@type":"cmd","msg":"xcode build --project ./tmp.xcworkspace"}
+{"@time":"","@src":"system","@type":"inf","msg":"Running step #1"}
+{"@time":"","@src":"system","@type":"inf","msg":
+    {"@time":"2020:02:24-22:24:16","@type":"inf","msg":"Building Xcode project"}
+    {"@time":"2020:02:24-22:24:17","@type":"cmd","msg":"xcode build --project ./tmp.xcodeproj"}
+    {"@time":"2020:02:24-22:24:19","@type":"inf","msg":"Building Xcode project"}
+    {"@time":"2020:02:24-22:24:20","@type":"cmd","msg":"xcode build --project ./tmp.xcodeproj"}
+}
 
+{"@time":"","@src":"system","@type":"inf","msg":"Running step #2"}
+{"@time":"","@src":"system","@type":"inf","msg":
+    "Building Xcode project"
+    "xcode build --project ./tmp.xcodeproj"
+    "Building Xcode project"
+    "xcode build --project ./tmp.xcodeproj"
+}
